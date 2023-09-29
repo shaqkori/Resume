@@ -4,3 +4,103 @@ body{
     padding:0;
     margin:0;
 }
+
+.container{
+    display:flex;
+    gap: 25rem
+}
+
+.right{
+    display:flex;
+    flex-direction:column;
+    padding: 24px;
+    margin-left: 50px;
+    text-align:center;
+    
+
+}
+
+.image-container{
+    
+    display:flex;
+    width: 300px; /* Adjust the width to control the length of the semi-circle */
+    height:325px; /* Height of the semi-circle */
+    background-color: #36261e; 
+    border: #36261e;/* Background color of the semi-circle */
+    border-top-left-radius: 150px; /* Top left corner radius to create the semi-circle */
+    border-top-right-radius: 150px;
+    align-items:center;
+    justify-content:center;
+    margin-left:40px
+
+}
+
+.role,.title{
+    display:flex;
+    flex-direction:column;
+  
+    
+    font-family:Gilda Display, Inter;
+    color:#927666
+}
+
+.email{
+    margin:48px;
+}
+
+.socials{
+    display:flex;
+    gap: 2rem;
+    margin-left:-36px;
+    justify-content:center;
+}
+
+
+.left{
+    display:flex;
+    flex-direction:column;
+    padding: 24px;
+    margin-right: 150px;
+    text-align:center;
+    margin-top:150px
+}
+.about-me{
+    display:flex;
+    justify-content:center;
+    margin-bottom: 110px;
+    color:#927666;
+    font-family:Gilda Display, Inter;
+    font-size:24px
+
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:5rem;
+}
+button{
+    background-color: rgba(76, 175, 80, 0.0);
+    color: black;
+    border: 2px solid #36261e;
+    border-radius:15px;
+    padding:12px;
+    width:200px
+}
+.container{
+    display:flex;
+}
+
+.ig,
+.twt,
+.fb,
+.ind{
+    background:#36261e;
+    color:#fbf6e5;
+    width:80px;
+    
+
+}
+.div-container{
+    display:flex;
+}
